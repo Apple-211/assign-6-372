@@ -11,7 +11,11 @@ let express = require('express');
 let app = express();
 let port = process.env.PORT || 3000;
 
+
+let triviaRoutes = require('./routes/trivia-routes');
+
 app.use(express.json());
+app.use('/triviabook', triviaRoutes);
 app.get('/', (req, res) => {
   res.send('Welcome to Triviabook!');
 });
