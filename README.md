@@ -36,6 +36,6 @@ Use `schema.sql` and `seed.sql` to create and populate the database.
 ## Deployment:
 
 Render URL: https://triviabook-api-3z5a.onrender.com
- 
 
-https://triviabook-api-3z5a.onrender.com /triviabook/topics — Lists available topics
+
+https://triviabook-api-3z5a.onrender.com/triviabook/topics — Lists available topics
